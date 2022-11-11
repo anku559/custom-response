@@ -1,5 +1,5 @@
 {
-  "name": "custom-json-response",
+  "name": "json-custom-response",
   "version": "1.0.0",
   "description": "Custom Response for JSON ResTful API's",
   "main": "lib/index.js",

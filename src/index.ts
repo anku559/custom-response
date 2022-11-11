@@ -56,5 +56,3 @@ export const CUSTOM_500 = (message: string) => {
   const response = new CustomResponse(500).custom(message);
   return response;
 };
-
-console.log(CUSTOM_500('ERROR OCCURRED'));
