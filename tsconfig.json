@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "rootDir": "./",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": false,
+    "strict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+},
+  "exclude": ["node_modules/*"]
+}
