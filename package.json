@@ -1,12 +1,29 @@
 {
   "name": "custom-json-response",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Custom Response for JSON ResTful API's",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Ankit Singh Chondawat",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anku559/custom-response.git"
+  },
+  "homepage": "https://github.com/anku559/custom-response.git#README",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
