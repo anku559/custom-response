@@ -46,13 +46,13 @@ export default class CustomResponse {
 }
 
 // Other Exports
-export const ENDPOINT_RES_404 = new CustomResponse(404).custom(
-  'Endpoint not found.',
-);
+// export const ENDPOINT_RES_404 = new CustomResponse(404).custom(
+//   'Endpoint not found.',
+// );
 
-export const DATA_NOT_FOUND = new CustomResponse(404).custom('Data not found.');
+// export const DATA_NOT_FOUND = new CustomResponse(404).custom('Data not found.');
 
-export const CUSTOM_500 = (message: string) => {
-  const response = new CustomResponse(500).custom(message);
-  return response;
-};
+// export const CUSTOM_500 = (message: string) => {
+//   const response = new CustomResponse(500).custom(message);
+//   return response;
+// };
