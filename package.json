@@ -1,6 +1,6 @@
 {
   "name": "json-custom-response",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Custom Response for JSON ResTful API's",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
