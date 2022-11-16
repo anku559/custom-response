@@ -1,10 +1,15 @@
 {
   "compilerOptions": {
     "target": "ES5",
-    "module": "ESNext",
+    "module": "ES2015",
+    "allowJs": true,
+    "strict": true,
     "declaration": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
     "outDir": "./lib",
-    "strict": true
+    "moduleResolution": "Node",
+    "removeComments": true
   },
   "include": ["src"],
   "exclude": ["node_modules", "**/__tests__/*"]
