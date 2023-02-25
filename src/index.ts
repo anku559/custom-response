@@ -56,3 +56,9 @@ export default class CustomResponse {
 //   const response = new CustomResponse(500).custom(message);
 //   return response;
 // };
+
+const SAMPLE_PORT = process.env.PORT || 3000;
+console.log(SAMPLE_PORT);
+console.log(SAMPLE_PORT);
+console.log(SAMPLE_PORT);
+// console.log(SAMPLE_PORT);

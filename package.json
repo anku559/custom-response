@@ -5,9 +5,13 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc -p .",
+    "start": "nodemon"
   },
-  "keywords": [],
+  "keywords": [
+    "TypeScript",
+    "HTTP Response"
+  ],
   "author": "Ankit Singh Chondawat",
   "license": "ISC",
   "repository": {
@@ -21,7 +25,9 @@
     }
   ],
   "devDependencies": {
-    "typescript": "^4.8.4"
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
   },
   "files": [
     "lib/**/*"
